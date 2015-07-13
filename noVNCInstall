@@ -1,0 +1,5 @@
+#!/bin/bash
+description "Install websockify"
+downloadModule websockify
+/opt/piget/websockify/websockifyInstall
+gitcloner kanaka/noVNC /opt/piget/noVNC/bin
