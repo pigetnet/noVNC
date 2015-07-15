@@ -1,2 +1,0 @@
-#!/bin/bash
-/opt/piget/noVNC/scripts/launch.sh $@
