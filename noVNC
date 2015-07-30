@@ -1,3 +1,0 @@
-#!/bin/bash
-. /opt/piget/core/install/extendPath
-. /opt/piget/noVNC/scripts/launch.sh $@
