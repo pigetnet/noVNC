@@ -1,5 +1,4 @@
 #!/bin/bash
 /show/description "Install websockify"
-/system/downloadModule websockify
-/opt/piget/websockify/install
-/system/gitcloner kanaka/noVNC /opt/piget/noVNC/bin
+/system/gitcloner kanaka/noVNC /do/noVNC/bin
+/do/noVNC/ssl

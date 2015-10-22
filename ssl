@@ -1,0 +1,5 @@
+#!/bin/bash
+/system/makedir /user/config/noVNC
+hostname=$(cat /etc/hostname)
+openssl req -new -x509 -days 365 -nodes -out /opt/user/config/websockify/self.pem -keyout /opt/user/config/websockify/self.pem -subj "/C=EN/ST=$hostname/L=$hostname/O=NO/CN=$hostname.local"
+
