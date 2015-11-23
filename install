@@ -1,4 +1,4 @@
 #!/bin/bash
-/show/description "Install websockify"
+/show/description "Install noVNC"
 /system/gitcloner kanaka/noVNC /do/noVNC/bin
 /do/noVNC/ssl

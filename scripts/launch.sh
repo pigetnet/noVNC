@@ -26,7 +26,7 @@ REAL_NAME="$(readlink -f $0)"
 HERE="$(cd "$(dirname "$REAL_NAME")" && pwd)"
 PORT="6080"
 VNC_DEST="localhost:5900"
-CERT="/user/config/websockify/self.pem"
+CERT="/user/config/noVNC/self.pem"
 WEB="/do/noVNC/bin/"
 proxy_pid=""
 
